@@ -1,7 +1,7 @@
 # Evelyn's Rust Testing
 ## Learning Rust
 
-I am using this repository to learn Rust programming language. Here, I will be documenting my progress, notes, and code examples as I explore different Rust concepts and features.
+I am using this repository to learn the Rust programming language. Here, I will be documenting my progress, notes, and code examples as I explore different Rust concepts and features.
 
 ### Goals
 
