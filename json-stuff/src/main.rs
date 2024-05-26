@@ -79,8 +79,9 @@ fn main() -> io::Result<()> {
         }
         println!("-------------------");
         // Print the selected item's description
-        let description = get_property(&selected_item.data, "description").unwrap();
-        println!("{}", description.yellow());
+        if let Some(description) = get_property(&selected_item.data, "description") {
+            println!("{}", description.yellow());
+        }
         // Print the rest of the properties, list the name and the value for each
         for (key, value) in selected_item.data.as_object().unwrap() {
             if key != "name" && key != "description" {
